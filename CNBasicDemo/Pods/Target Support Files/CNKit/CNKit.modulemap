@@ -1,0 +1,6 @@
+framework module CNKit {
+  umbrella header "CNKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

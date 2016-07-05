@@ -1,0 +1,16 @@
+PODS:
+  - CNKit (1.1.8):
+    - CNKit/FoundtionKit (= 1.1.8)
+    - CNKit/UIKit (= 1.1.8)
+  - CNKit/FoundtionKit (1.1.8)
+  - CNKit/UIKit (1.1.8)
+
+DEPENDENCIES:
+  - CNKit (~> 1.1.8)
+
+SPEC CHECKSUMS:
+  CNKit: 8689e654964b744fee4c3bea1e7a884acb55b74d
+
+PODFILE CHECKSUM: 09141acddd1922faae5eda79414f20b0d3b1304b
+
+COCOAPODS: 1.0.0
