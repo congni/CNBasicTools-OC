@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9F8EF1C4C642159F64F9763A27A5B05C'
+               BlueprintIdentifier = '56AF8E907EEEAED40D2EAE2A8BB14D71'
                BlueprintName = 'CNKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CNKit.framework'>

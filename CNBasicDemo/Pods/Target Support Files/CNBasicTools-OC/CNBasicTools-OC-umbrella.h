@@ -2,6 +2,7 @@
 
 #import "BasicTool.h"
 #import "CNAddress.h"
+#import "CNFirUpdateVersionManager.h"
 #import "CNLocation.h"
 #import "DataStoreTool.h"
 #import "MobileNumberTool.h"

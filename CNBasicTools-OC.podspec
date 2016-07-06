@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CNBasicTools-OC'
-  s.version      = '1.0'
+  s.version      = '1.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/congni/CNBasicTools-OC.git'
   s.authors      = { "葱泥" => "983818495@qq.com" }
