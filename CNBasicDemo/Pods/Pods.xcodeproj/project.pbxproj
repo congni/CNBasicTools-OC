@@ -7,111 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036F585ADFA76E2049CF0D2C86E4B4A1 /* Pods-CNBasicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9664029DEB323D9A5F614D3C510FD0C5 /* Pods-CNBasicDemo-dummy.m */; };
-		0C426CF7B2D534638A186E18DE6A3A08 /* UIButton+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBC0BA73B754BC32F7F34C5D86AAC90 /* UIButton+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11274F6121BF1A60206DC25CC42EAD3D /* CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 957A5C25E2E64F12FC2064CF7F817E36 /* CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		162BCF0FA152DC45D6F5811A88243D35 /* CNKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8172694D46346EBA06B2249BB97B2460 /* CNKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		191A83627E414E984470267758A26FBA /* Pods-CNBasicDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67879EC8B4AFA02685E1667127CE8709 /* Pods-CNBasicDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		237AA70370AA0CA9AA68B4090A1265CA /* NSString+Encrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = CE373F145B2AC7FB266245FB18F6C776 /* NSString+Encrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23C5B406DCD74C4F2AB1E82604E46A8C /* CNKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB252325A5A18D59EAABF2177220D295 /* CNKit-dummy.m */; };
-		2CF361A60A5A77D3F1936F4F42C853ED /* NSArray+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C01968EFA518B4ABFC4C87504528F7 /* NSArray+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		334BD1A02BA727CD1B43FB645933E7FB /* NSDate+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE37B2328F8FD61DD7880A98D286D58 /* NSDate+CNKit.m */; };
-		38A133E44303926AA7F969901CC6BF83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3923D1C71CB478FED5C3928D3F373A3C /* UIImageView+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FD8AE2D3E693D793EB76916D3F8A8 /* UIImageView+CNKit.m */; };
-		476D7C5E0284EA943E8044CA3D752C4C /* UILabel+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C75208C16209E14A516E052CA65234 /* UILabel+CNKit.m */; };
-		4AA400838986D295A9FB0E440C3950DF /* NSString+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE3A27FE5D4AA9FE83454A63891EE9 /* NSString+CNKit.m */; };
-		58CDE5E26545B537E743063FB8839EF1 /* UIView+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F405D596E44C1001185E7AF0856A6A /* UIView+CNKit.m */; };
-		5E21ABD7241393BF284F5D189F241BA4 /* NSString+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E32BFB0952F8F59C6B16A3A1BA8BBE5 /* NSString+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61B998FBA7AA8C66E8A4DDAB6CE8FA10 /* NSString+Encrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD2A7772F46B27E6BD83E015F3632E0 /* NSString+Encrypto.m */; };
-		63E70DB7FC1977228C086349BE8EFFB8 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F265668F02818127FC19747B5576F136 /* NSString+JSON.m */; };
-		6E69AE745585A9D8638EA9DCD4B60C5C /* NSString+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC6D44639586C18AE4C078BD414867 /* NSString+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78A2514160794F84B748F21EC543257C /* UIImage+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F0386AEFF145F63FCC83B09FC64D9FA5 /* UIImage+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AD21E508480ED6FB2FF1B46D0B8620C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		7F4DE629356CE424B32A5D5A306C3E87 /* UIColor+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EE5F6490116AB60AFD38509950F974 /* UIColor+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82459E1D60B1ED568951A5362DB3AA26 /* NSArray+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CFCF24826512F4EE095699B18EF5E5 /* NSArray+CNKit.m */; };
-		8AECB4035CB8CFFDE9B82A31305EDE7A /* NSDictionary+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B3CDCF9C3DBA2C88292E2AACC42186 /* NSDictionary+CNKit.m */; };
-		8E7035B81F72F9BB58CDF26F209D6C6B /* UIImage+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE787ABA2695D1C04591C9982FA42C /* UIImage+CNKit.m */; };
-		BBB5F09AEF883806FFAEE7ADE421967C /* NSDate+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 39025D9BBFE1954CE85AA93E017804B6 /* NSDate+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB79B83DB175983B95F2BB6273CBD389 /* NSDictionary+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 21216B3F25A6CFB741BB11C489A852C0 /* NSDictionary+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDFECFB15E9E286C5C1B4D0CB33F8C16 /* UIImageView+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 471051114E936916B5885642C9B1D419 /* UIImageView+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3DF6F3AC65AEEFA2D2DC5438383F18D /* UIView+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFAE772538C13821C2B6EC31A9CF09F /* UIView+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA827486191B0FF5E699BF79130728E3 /* UILabel+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EF14C193905B5C122A44DFD01848E0 /* UILabel+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4FE9994B004BF3D00E670396046FA48 /* UIColor+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F69E26588AC66346CE92037122569 /* UIColor+CNKit.m */; };
-		FF703BFC7D8CEC60076AE0D802CBB49D /* UIButton+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AF89E8DDC4A1938FDFDB49BA7270B7E6 /* UIButton+CNKit.m */; };
+		04AD976EA2292153F8EBCDB68918430B /* NSString+Encrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9CB515EF1AA18CBC5774614902CE51 /* NSString+Encrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09470ACBD9A0F7DAA21375CDF5C0BAA8 /* CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 49376AB8967690469616213811E6DCFE /* CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0997BF77EE58C63A7CD25AD098C191E7 /* MobileNumberTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE6BCCDBF6A961B51536D3FD31079F /* MobileNumberTool.m */; };
+		0A31874373D46567B0F457ABD459AD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCC7E67D5F6CE7DB45E1A435DD5E7E4 /* Foundation.framework */; };
+		0AB819BC376C71DAECA469EB69AD0AEC /* UIColor+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FD93D2801DECF9E32A2D83DCF7C0B3EE /* UIColor+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC66C5DBFAF2395859E4247F804894C /* BasicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC9593FF917E74D94BF5F0C2118128 /* BasicTool.m */; };
+		12A3E1EE0DCB9E5E7DD342C0A185F7A1 /* CNBasicTools-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB8A916FE9E07D5541AF3DDA73D96C4 /* CNBasicTools-OC-dummy.m */; };
+		195304F50B02A47764CA1262404F389C /* CNKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453C7EFB34B4868E644988BF97F3B5D3 /* CNKit.framework */; };
+		2CB167AF030576F0C1A8BA5BD2D2A7CF /* DataStoreTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D4F7C14B314E3E6564A80F236B574E /* DataStoreTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECD90D7CFC81133B295F9A066434003 /* NSString+Encrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5C78284438888225BA6566BC1AF96 /* NSString+Encrypto.m */; };
+		30E52FA3F656E43F18B74B0243DE6601 /* UIImage+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B80A1E3D409D9E5B5126A43062BE28 /* UIImage+CNKit.m */; };
+		3F4C4443F4BFD9D69911BFF01E3F5CD3 /* CNAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DBADD91AC8E8558B9C170DD989C786 /* CNAddress.m */; };
+		4FD49871C3FCCFA49791C64DE464BE9D /* UIView+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0A5061D3A743F50DEECC4EB2FEFE /* UIView+CNKit.m */; };
+		5DEAA2EA53CD0120137D1D5B6210545D /* Pods-CNBasicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9664029DEB323D9A5F614D3C510FD0C5 /* Pods-CNBasicDemo-dummy.m */; };
+		67D31D7DAEA534C9CCDA7C02EE0B6CF6 /* NSString+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE29DC1F5C570B69F0395FA9D2BFAB6 /* NSString+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6229C41042FE54AE51520E93104ADA /* NSDictionary+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2B3DCCCE46EFF3813A1F9057AF2732 /* NSDictionary+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AC41ADA5C3039377435F639BA40D0C /* NSDate+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A18F597079F771B954A52EBE357710F /* NSDate+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C12028E2616B7B31AFE712A44C7C4F /* BasicTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F6C2059E03BC20CFCC650418DCC25B /* BasicTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76EEA08B8D7F919DAEC8C67E97D03ECD /* NSDate+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5595C8D5E6D87579FEEB10A461D02901 /* NSDate+CNKit.m */; };
+		7C8A0726A976161EBF8507D01A76284B /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E630333516AADC9FDF7262CF039BD23B /* NSString+JSON.m */; };
+		7D7622BE31D875EA25DED5FC5F0E4392 /* NSString+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5896F4D510AD093218662A36298616 /* NSString+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A2A8D93A1B302CC37B8A611674C166 /* NSArray+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3817C5D21D3299819BA73E780643505 /* NSArray+CNKit.m */; };
+		89C75B6DF82E0637CD2F82FAAAE5B1A9 /* UIImageView+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BDA4F9F1D373B7D8FB41A181E62F1 /* UIImageView+CNKit.m */; };
+		8F2E9A719AD327F0D40926812943C804 /* UIView+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 14911672E98CB38B51FFC409115E6C0F /* UIView+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948249059308D2DB3CE60B490F719F97 /* UILabel+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D57366379595C45935E9ED78F250E7 /* UILabel+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D1E73089F4386E86E17126CCD627AA /* NSArray+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F26AC5EA18BE3033F11C71FAB35198A /* NSArray+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6AA0382F53AD01669CAA6409B634CA /* CNBasicTools-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2AFD5C89B565EF382FFF800E83C8543 /* CNBasicTools-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0FAE086576039826FB11B352EE7F59 /* Pods-CNBasicDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67879EC8B4AFA02685E1667127CE8709 /* Pods-CNBasicDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B453AF109B8C71B2EFFAF8EF452468F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCC7E67D5F6CE7DB45E1A435DD5E7E4 /* Foundation.framework */; };
+		B67F5C623BA880F9E3D50F61102F39BA /* CNKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DD0A7C69A184760BBC60B99B13350A /* CNKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B67F6EBAF8F4B59BE0A66446CFDD4B00 /* UIColor+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD966571BB54625508BFA66EF12ECD /* UIColor+CNKit.m */; };
+		BDC628998AC6EB110A6B613C73D159E6 /* UIImageView+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C7E98B6F60CD49BB936A73CE8A3E79 /* UIImageView+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF219DDDA89021C196DC107FEFE298B /* CNLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981B8DBB68C5074ADA3376AC58143E1 /* CNLocation.m */; };
+		C275B00B1F2DE98DA366A8F04FAD06B4 /* NSString+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A314DB71061B10A597E853D4E3EBCEA /* NSString+CNKit.m */; };
+		C396DC49F581E4AFD3A44DE9A6249244 /* MobileNumberTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 33900DFDF4D1931457C4A2E2B119F4F1 /* MobileNumberTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C579A16EDCA49818635061F8FD29CA18 /* CNKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D47AC595B134332F6169B52A20C9B /* CNKit-dummy.m */; };
+		CCB54D2F1E9EC207480D0CCD968C30EE /* CNLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 62795B28B150A147B0D6F73016D4A14A /* CNLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD09223851ABAB43C36D292DA3F5FC9 /* UIImage+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B8C5A5E2D9229CD4A76FA77DBA144C /* UIImage+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5F18896A24BB96F8BB8D484B7233EA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCC7E67D5F6CE7DB45E1A435DD5E7E4 /* Foundation.framework */; };
+		DF6272C683ABF974CA6B7B8C9DD55965 /* UIButton+CNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CFCDCE40FD8BA1EC137A3944583EC9 /* UIButton+CNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E96CAED91B068BCFEB96109F7432A4F5 /* CNAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F69C8F9EEFF11FB76228EE2475FDEBD /* CNAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E983DD16EB7E335350FA70DFEECE7255 /* UIButton+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C497A38F65B091F7E88130806F02A /* UIButton+CNKit.m */; };
+		ED5076A487C6E3E9FEFE557C47A7BB6B /* UILabel+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB5E56D381C0C2666246D463977C4DB /* UILabel+CNKit.m */; };
+		FC8A3E52EF39D12E8488119D06C72CA4 /* DataStoreTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1714A32A753BF8ABD40320C1352716E8 /* DataStoreTool.m */; };
+		FD2A46E9E2DA02AFE8C4587E461096C5 /* NSDictionary+CNKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC31721684D5839EB05AB9CA39B217B /* NSDictionary+CNKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BA8E999B9E2FA72665778E2E15B4737C /* PBXContainerItemProxy */ = {
+		6DD9FBF6C161744F3D1552287C2C6815 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FD4C82A76855AE32DDEC9855141AF9E;
+			remoteGlobalIDString = 9F8EF1C4C642159F64F9763A27A5B05C;
+			remoteInfo = CNKit;
+		};
+		84A07BD94EF1BF9E384E30158D8BFF67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE53388D483F0A69090E96D67F0DA7B;
+			remoteInfo = "CNBasicTools-OC";
+		};
+		BC90F237E7240C4D118B9424A72BCDD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8EF1C4C642159F64F9763A27A5B05C;
 			remoteInfo = CNKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		099477212BDD90836EE4C89E37C6DF22 /* Pods-CNBasicDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNBasicDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0EFAE772538C13821C2B6EC31A9CF09F /* UIView+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CNKit.h"; path = "UIKit/UIView+CNKit.h"; sourceTree = "<group>"; };
-		18C75208C16209E14A516E052CA65234 /* UILabel+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+CNKit.m"; path = "UIKit/UILabel+CNKit.m"; sourceTree = "<group>"; };
-		1DE37B2328F8FD61DD7880A98D286D58 /* NSDate+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CNKit.m"; path = "FoundtionKit/NSDate+CNKit.m"; sourceTree = "<group>"; };
-		1E2F69E26588AC66346CE92037122569 /* UIColor+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CNKit.m"; path = "UIKit/UIColor+CNKit.m"; sourceTree = "<group>"; };
-		1FBE3A27FE5D4AA9FE83454A63891EE9 /* NSString+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CNKit.m"; path = "FoundtionKit/NSString+CNKit.m"; sourceTree = "<group>"; };
-		21216B3F25A6CFB741BB11C489A852C0 /* NSDictionary+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CNKit.h"; path = "FoundtionKit/NSDictionary+CNKit.h"; sourceTree = "<group>"; };
-		226FD8AE2D3E693D793EB76916D3F8A8 /* UIImageView+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CNKit.m"; path = "UIKit/UIImageView+CNKit.m"; sourceTree = "<group>"; };
-		28C01968EFA518B4ABFC4C87504528F7 /* NSArray+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+CNKit.h"; path = "FoundtionKit/NSArray+CNKit.h"; sourceTree = "<group>"; };
+		0BE29DC1F5C570B69F0395FA9D2BFAB6 /* NSString+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CNKit.h"; path = "FoundtionKit/NSString+CNKit.h"; sourceTree = "<group>"; };
+		10FE6BCCDBF6A961B51536D3FD31079F /* MobileNumberTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileNumberTool.m; path = "CNBasicTools-OC/MobileNumberTool.m"; sourceTree = "<group>"; };
+		14911672E98CB38B51FFC409115E6C0F /* UIView+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CNKit.h"; path = "UIKit/UIView+CNKit.h"; sourceTree = "<group>"; };
+		1714A32A753BF8ABD40320C1352716E8 /* DataStoreTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataStoreTool.m; path = "CNBasicTools-OC/DataStoreTool.m"; sourceTree = "<group>"; };
+		1F69C8F9EEFF11FB76228EE2475FDEBD /* CNAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNAddress.h; path = "CNBasicTools-OC/CNAddress.h"; sourceTree = "<group>"; };
+		2981B8DBB68C5074ADA3376AC58143E1 /* CNLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNLocation.m; path = "CNBasicTools-OC/CNLocation.m"; sourceTree = "<group>"; };
+		2A2B3DCCCE46EFF3813A1F9057AF2732 /* NSDictionary+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CNKit.h"; path = "FoundtionKit/NSDictionary+CNKit.h"; sourceTree = "<group>"; };
 		2BFAD6A4687BB6B12EAAFC9A64F5A796 /* Pods-CNBasicDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNBasicDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		2CC102707AC1D82D2D7512276F095CC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34B3CDCF9C3DBA2C88292E2AACC42186 /* NSDictionary+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+CNKit.m"; path = "FoundtionKit/NSDictionary+CNKit.m"; sourceTree = "<group>"; };
-		373F927FAEAC4B533322B704473174A5 /* CNKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNKit-prefix.pch"; sourceTree = "<group>"; };
-		39025D9BBFE1954CE85AA93E017804B6 /* NSDate+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+CNKit.h"; path = "FoundtionKit/NSDate+CNKit.h"; sourceTree = "<group>"; };
-		3E32BFB0952F8F59C6B16A3A1BA8BBE5 /* NSString+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CNKit.h"; path = "FoundtionKit/NSString+CNKit.h"; sourceTree = "<group>"; };
-		471051114E936916B5885642C9B1D419 /* UIImageView+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CNKit.h"; path = "UIKit/UIImageView+CNKit.h"; sourceTree = "<group>"; };
-		51EE5F6490116AB60AFD38509950F974 /* UIColor+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CNKit.h"; path = "UIKit/UIColor+CNKit.h"; sourceTree = "<group>"; };
+		2D61219E84D6AF4EB9A704D92DE8FB3C /* CNBasicTools-OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNBasicTools-OC-prefix.pch"; sourceTree = "<group>"; };
+		2EC31721684D5839EB05AB9CA39B217B /* NSDictionary+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+CNKit.m"; path = "FoundtionKit/NSDictionary+CNKit.m"; sourceTree = "<group>"; };
+		33900DFDF4D1931457C4A2E2B119F4F1 /* MobileNumberTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileNumberTool.h; path = "CNBasicTools-OC/MobileNumberTool.h"; sourceTree = "<group>"; };
+		34DBADD91AC8E8558B9C170DD989C786 /* CNAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNAddress.m; path = "CNBasicTools-OC/CNAddress.m"; sourceTree = "<group>"; };
+		351B15270FAECA038A0D5A6C13C00670 /* CNKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNKit.xcconfig; sourceTree = "<group>"; };
+		453C7EFB34B4868E644988BF97F3B5D3 /* CNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D57366379595C45935E9ED78F250E7 /* UILabel+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+CNKit.h"; path = "UIKit/UILabel+CNKit.h"; sourceTree = "<group>"; };
+		47978CAB04008C4D3AE748EAE5EF7BC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49376AB8967690469616213811E6DCFE /* CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CNKit.h; sourceTree = "<group>"; };
+		4AFC06D921A3B61F856327EC9D30CDC2 /* CNBasicTools-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "CNBasicTools-OC.modulemap"; sourceTree = "<group>"; };
+		4BB5C78284438888225BA6566BC1AF96 /* NSString+Encrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Encrypto.m"; path = "FoundtionKit/NSString+Encrypto.m"; sourceTree = "<group>"; };
+		4E5896F4D510AD093218662A36298616 /* NSString+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JSON.h"; path = "FoundtionKit/NSString+JSON.h"; sourceTree = "<group>"; };
+		4FCC7E67D5F6CE7DB45E1A435DD5E7E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5595C8D5E6D87579FEEB10A461D02901 /* NSDate+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CNKit.m"; path = "FoundtionKit/NSDate+CNKit.m"; sourceTree = "<group>"; };
 		58341BE1D3813A5F56DE7ADB1CBD94A9 /* Pods-CNBasicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNBasicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5A7893E926B814AAB6C10423C501A304 /* Pods-CNBasicDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNBasicDemo-frameworks.sh"; sourceTree = "<group>"; };
-		66F405D596E44C1001185E7AF0856A6A /* UIView+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CNKit.m"; path = "UIKit/UIView+CNKit.m"; sourceTree = "<group>"; };
+		62795B28B150A147B0D6F73016D4A14A /* CNLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNLocation.h; path = "CNBasicTools-OC/CNLocation.h"; sourceTree = "<group>"; };
+		63BABCE48851FD0925CFE5EE1EEE7FF0 /* Pods_CNBasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNBasicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD966571BB54625508BFA66EF12ECD /* UIColor+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CNKit.m"; path = "UIKit/UIColor+CNKit.m"; sourceTree = "<group>"; };
 		67879EC8B4AFA02685E1667127CE8709 /* Pods-CNBasicDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNBasicDemo-umbrella.h"; sourceTree = "<group>"; };
-		6FBC0BA73B754BC32F7F34C5D86AAC90 /* UIButton+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CNKit.h"; path = "UIKit/UIButton+CNKit.h"; sourceTree = "<group>"; };
+		67B80A1E3D409D9E5B5126A43062BE28 /* UIImage+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CNKit.m"; path = "UIKit/UIImage+CNKit.m"; sourceTree = "<group>"; };
+		67DD0A7C69A184760BBC60B99B13350A /* CNKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNKit-umbrella.h"; sourceTree = "<group>"; };
+		78C7E98B6F60CD49BB936A73CE8A3E79 /* UIImageView+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CNKit.h"; path = "UIKit/UIImageView+CNKit.h"; sourceTree = "<group>"; };
 		79819359606C3249B95B97C7EAC0CC13 /* Pods-CNBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8172694D46346EBA06B2249BB97B2460 /* CNKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNKit-umbrella.h"; sourceTree = "<group>"; };
+		7A18F597079F771B954A52EBE357710F /* NSDate+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+CNKit.h"; path = "FoundtionKit/NSDate+CNKit.h"; sourceTree = "<group>"; };
+		7D4D47AC595B134332F6169B52A20C9B /* CNKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNKit-dummy.m"; sourceTree = "<group>"; };
+		80F6C2059E03BC20CFCC650418DCC25B /* BasicTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicTool.h; path = "CNBasicTools-OC/BasicTool.h"; sourceTree = "<group>"; };
+		83059916E9CC5397A74EDE2C29474DE1 /* CNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A314DB71061B10A597E853D4E3EBCEA /* NSString+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CNKit.m"; path = "FoundtionKit/NSString+CNKit.m"; sourceTree = "<group>"; };
+		8B1C497A38F65B091F7E88130806F02A /* UIButton+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CNKit.m"; path = "UIKit/UIButton+CNKit.m"; sourceTree = "<group>"; };
 		8C900B9913900291C79FC49CE5FC3E66 /* Pods-CNBasicDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CNBasicDemo.modulemap"; sourceTree = "<group>"; };
+		8F26AC5EA18BE3033F11C71FAB35198A /* NSArray+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+CNKit.h"; path = "FoundtionKit/NSArray+CNKit.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		957A5C25E2E64F12FC2064CF7F817E36 /* CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CNKit.h; sourceTree = "<group>"; };
 		9664029DEB323D9A5F614D3C510FD0C5 /* Pods-CNBasicDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNBasicDemo-dummy.m"; sourceTree = "<group>"; };
-		98AE787ABA2695D1C04591C9982FA42C /* UIImage+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CNKit.m"; path = "UIKit/UIImage+CNKit.m"; sourceTree = "<group>"; };
-		AF89E8DDC4A1938FDFDB49BA7270B7E6 /* UIButton+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CNKit.m"; path = "UIKit/UIButton+CNKit.m"; sourceTree = "<group>"; };
-		B10E240ABA6F802329433C79A8E24473 /* CNKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CNKit.modulemap; sourceTree = "<group>"; };
-		BBDC6D44639586C18AE4C078BD414867 /* NSString+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JSON.h"; path = "FoundtionKit/NSString+JSON.h"; sourceTree = "<group>"; };
-		BE43EA6833119E4315DD98F0F849E69F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5CFCF24826512F4EE095699B18EF5E5 /* NSArray+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+CNKit.m"; path = "FoundtionKit/NSArray+CNKit.m"; sourceTree = "<group>"; };
-		CCC17A307B1A83DF923924138599771D /* Pods_CNBasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNBasicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCD2A7772F46B27E6BD83E015F3632E0 /* NSString+Encrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Encrypto.m"; path = "FoundtionKit/NSString+Encrypto.m"; sourceTree = "<group>"; };
-		CE373F145B2AC7FB266245FB18F6C776 /* NSString+Encrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Encrypto.h"; path = "FoundtionKit/NSString+Encrypto.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		96B8C5A5E2D9229CD4A76FA77DBA144C /* UIImage+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CNKit.h"; path = "UIKit/UIImage+CNKit.h"; sourceTree = "<group>"; };
+		98B93CFC40823C4DDF86F2FA56E9E17B /* CNKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CNKit.modulemap; sourceTree = "<group>"; };
+		A9B326CD8ED00B8CA406E4DCB9A52D36 /* CNBasicTools-OC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CNBasicTools-OC.xcconfig"; sourceTree = "<group>"; };
+		AA9CB515EF1AA18CBC5774614902CE51 /* NSString+Encrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Encrypto.h"; path = "FoundtionKit/NSString+Encrypto.h"; sourceTree = "<group>"; };
+		ADBC0A5061D3A743F50DEECC4EB2FEFE /* UIView+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CNKit.m"; path = "UIKit/UIView+CNKit.m"; sourceTree = "<group>"; };
+		B3817C5D21D3299819BA73E780643505 /* NSArray+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+CNKit.m"; path = "FoundtionKit/NSArray+CNKit.m"; sourceTree = "<group>"; };
+		B5CFCDCE40FD8BA1EC137A3944583EC9 /* UIButton+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CNKit.h"; path = "UIKit/UIButton+CNKit.h"; sourceTree = "<group>"; };
+		BA3DD6E323FC789E2BAFBB1C022C5DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB5E56D381C0C2666246D463977C4DB /* UILabel+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+CNKit.m"; path = "UIKit/UILabel+CNKit.m"; sourceTree = "<group>"; };
+		BEB8A916FE9E07D5541AF3DDA73D96C4 /* CNBasicTools-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNBasicTools-OC-dummy.m"; sourceTree = "<group>"; };
+		BEEC9593FF917E74D94BF5F0C2118128 /* BasicTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicTool.m; path = "CNBasicTools-OC/BasicTool.m"; sourceTree = "<group>"; };
+		C1D4F7C14B314E3E6564A80F236B574E /* DataStoreTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStoreTool.h; path = "CNBasicTools-OC/DataStoreTool.h"; sourceTree = "<group>"; };
+		D26A2D8667DD0F93E6BE2AB3FFAD3A2D /* CNKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNKit-prefix.pch"; sourceTree = "<group>"; };
 		DB8624005204383121C9D3B901508911 /* Pods-CNBasicDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNBasicDemo-resources.sh"; sourceTree = "<group>"; };
-		EEB01CB81F77A4F3C650ACCAC3C198EB /* CNKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNKit.xcconfig; sourceTree = "<group>"; };
-		F0386AEFF145F63FCC83B09FC64D9FA5 /* UIImage+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CNKit.h"; path = "UIKit/UIImage+CNKit.h"; sourceTree = "<group>"; };
-		F0E35F5AD2156C1039B780D0FE0AA0E4 /* CNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0EF14C193905B5C122A44DFD01848E0 /* UILabel+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+CNKit.h"; path = "UIKit/UILabel+CNKit.h"; sourceTree = "<group>"; };
-		F265668F02818127FC19747B5576F136 /* NSString+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JSON.m"; path = "FoundtionKit/NSString+JSON.m"; sourceTree = "<group>"; };
-		FB252325A5A18D59EAABF2177220D295 /* CNKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNKit-dummy.m"; sourceTree = "<group>"; };
+		E4F78AEF5458256132101A4BD8CAADBF /* CNBasicTools_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNBasicTools_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E630333516AADC9FDF7262CF039BD23B /* NSString+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JSON.m"; path = "FoundtionKit/NSString+JSON.m"; sourceTree = "<group>"; };
+		F13BDA4F9F1D373B7D8FB41A181E62F1 /* UIImageView+CNKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CNKit.m"; path = "UIKit/UIImageView+CNKit.m"; sourceTree = "<group>"; };
+		F2AFD5C89B565EF382FFF800E83C8543 /* CNBasicTools-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNBasicTools-OC-umbrella.h"; sourceTree = "<group>"; };
+		FD93D2801DECF9E32A2D83DCF7C0B3EE /* UIColor+CNKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CNKit.h"; path = "UIKit/UIColor+CNKit.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21A864F8F0487D3787CD81A224764EA3 /* Frameworks */ = {
+		02F1106662CF8727D3F3D7CDD0135931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A133E44303926AA7F969901CC6BF83 /* Foundation.framework in Frameworks */,
+				195304F50B02A47764CA1262404F389C /* CNKit.framework in Frameworks */,
+				D5F18896A24BB96F8BB8D484B7233EA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69D2B9E68B933856E1FCF5F62DC4AFBB /* Frameworks */ = {
+		888B95D0168E50232DA9F7933D008A7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD21E508480ED6FB2FF1B46D0B8620C /* Foundation.framework in Frameworks */,
+				0A31874373D46567B0F457ABD459AD71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C70EB03A3EE07C220D68EAE7135FA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B453AF109B8C71B2EFFAF8EF452468F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,38 +181,98 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		156311770E6FE5EED0A24EFE74C4E843 /* CNBasicTools-OC */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				80F6C2059E03BC20CFCC650418DCC25B /* BasicTool.h */,
+				BEEC9593FF917E74D94BF5F0C2118128 /* BasicTool.m */,
+				1F69C8F9EEFF11FB76228EE2475FDEBD /* CNAddress.h */,
+				34DBADD91AC8E8558B9C170DD989C786 /* CNAddress.m */,
+				62795B28B150A147B0D6F73016D4A14A /* CNLocation.h */,
+				2981B8DBB68C5074ADA3376AC58143E1 /* CNLocation.m */,
+				C1D4F7C14B314E3E6564A80F236B574E /* DataStoreTool.h */,
+				1714A32A753BF8ABD40320C1352716E8 /* DataStoreTool.m */,
+				33900DFDF4D1931457C4A2E2B119F4F1 /* MobileNumberTool.h */,
+				10FE6BCCDBF6A961B51536D3FD31079F /* MobileNumberTool.m */,
+				83946107BA4B74D4E0F27AD871883C3E /* Support Files */,
 			);
-			name = iOS;
+			path = "CNBasicTools-OC";
 			sourceTree = "<group>";
 		};
-		7C3A973912E2889676DB64218E2E9119 /* Pods */ = {
+		33D1CA21B9EFBC363DE07933EC1AA48D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E961004DF96DDDC8BBEE7256B697F324 /* CNKit */,
+				453C7EFB34B4868E644988BF97F3B5D3 /* CNKit.framework */,
+				A59FAEA933427C38609C0DE52F923571 /* iOS */,
 			);
-			name = Pods;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE6E998CF5A74A06690A3BC16E47723 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B93CFC40823C4DDF86F2FA56E9E17B /* CNKit.modulemap */,
+				351B15270FAECA038A0D5A6C13C00670 /* CNKit.xcconfig */,
+				7D4D47AC595B134332F6169B52A20C9B /* CNKit-dummy.m */,
+				D26A2D8667DD0F93E6BE2AB3FFAD3A2D /* CNKit-prefix.pch */,
+				67DD0A7C69A184760BBC60B99B13350A /* CNKit-umbrella.h */,
+				47978CAB04008C4D3AE748EAE5EF7BC6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CNKit";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7C3A973912E2889676DB64218E2E9119 /* Pods */,
-				906FAE557A7F84B787CB537BABD2B14F /* Products */,
+				33D1CA21B9EFBC363DE07933EC1AA48D /* Frameworks */,
+				924A36F5296649F57630F74C08CB55E0 /* Pods */,
+				A065E24BCB77367D6380E4656B25F3DC /* Products */,
 				107929DFF92DC0D736764C827403905F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		906FAE557A7F84B787CB537BABD2B14F /* Products */ = {
+		83946107BA4B74D4E0F27AD871883C3E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0E35F5AD2156C1039B780D0FE0AA0E4 /* CNKit.framework */,
-				CCC17A307B1A83DF923924138599771D /* Pods_CNBasicDemo.framework */,
+				4AFC06D921A3B61F856327EC9D30CDC2 /* CNBasicTools-OC.modulemap */,
+				A9B326CD8ED00B8CA406E4DCB9A52D36 /* CNBasicTools-OC.xcconfig */,
+				BEB8A916FE9E07D5541AF3DDA73D96C4 /* CNBasicTools-OC-dummy.m */,
+				2D61219E84D6AF4EB9A704D92DE8FB3C /* CNBasicTools-OC-prefix.pch */,
+				F2AFD5C89B565EF382FFF800E83C8543 /* CNBasicTools-OC-umbrella.h */,
+				BA3DD6E323FC789E2BAFBB1C022C5DB6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CNBasicTools-OC";
+			sourceTree = "<group>";
+		};
+		924A36F5296649F57630F74C08CB55E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				156311770E6FE5EED0A24EFE74C4E843 /* CNBasicTools-OC */,
+				939DDCED1E2F58342C3658666FB4D150 /* CNKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		939DDCED1E2F58342C3658666FB4D150 /* CNKit */ = {
+			isa = PBXGroup;
+			children = (
+				49376AB8967690469616213811E6DCFE /* CNKit.h */,
+				CE996B35DE6D46C39C04ADAE51546506 /* FoundtionKit */,
+				3AE6E998CF5A74A06690A3BC16E47723 /* Support Files */,
+				A99DBE42ACE7ED7305D5867AD567EB60 /* UIKit */,
+			);
+			path = CNKit;
+			sourceTree = "<group>";
+		};
+		A065E24BCB77367D6380E4656B25F3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F78AEF5458256132101A4BD8CAADBF /* CNBasicTools_OC.framework */,
+				83059916E9CC5397A74EDE2C29474DE1 /* CNKit.framework */,
+				63BABCE48851FD0925CFE5EE1EEE7FF0 /* Pods_CNBasicDemo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,119 +295,126 @@
 			path = "Target Support Files/Pods-CNBasicDemo";
 			sourceTree = "<group>";
 		};
-		B9F3121DB858EBE4782548C6292638A5 /* FoundtionKit */ = {
+		A59FAEA933427C38609C0DE52F923571 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				28C01968EFA518B4ABFC4C87504528F7 /* NSArray+CNKit.h */,
-				C5CFCF24826512F4EE095699B18EF5E5 /* NSArray+CNKit.m */,
-				39025D9BBFE1954CE85AA93E017804B6 /* NSDate+CNKit.h */,
-				1DE37B2328F8FD61DD7880A98D286D58 /* NSDate+CNKit.m */,
-				21216B3F25A6CFB741BB11C489A852C0 /* NSDictionary+CNKit.h */,
-				34B3CDCF9C3DBA2C88292E2AACC42186 /* NSDictionary+CNKit.m */,
-				3E32BFB0952F8F59C6B16A3A1BA8BBE5 /* NSString+CNKit.h */,
-				1FBE3A27FE5D4AA9FE83454A63891EE9 /* NSString+CNKit.m */,
-				CE373F145B2AC7FB266245FB18F6C776 /* NSString+Encrypto.h */,
-				CCD2A7772F46B27E6BD83E015F3632E0 /* NSString+Encrypto.m */,
-				BBDC6D44639586C18AE4C078BD414867 /* NSString+JSON.h */,
-				F265668F02818127FC19747B5576F136 /* NSString+JSON.m */,
+				4FCC7E67D5F6CE7DB45E1A435DD5E7E4 /* Foundation.framework */,
 			);
-			name = FoundtionKit;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A99DBE42ACE7ED7305D5867AD567EB60 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6A29C1A0C0793E85BB04D132C98A5C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B10E240ABA6F802329433C79A8E24473 /* CNKit.modulemap */,
-				EEB01CB81F77A4F3C650ACCAC3C198EB /* CNKit.xcconfig */,
-				FB252325A5A18D59EAABF2177220D295 /* CNKit-dummy.m */,
-				373F927FAEAC4B533322B704473174A5 /* CNKit-prefix.pch */,
-				8172694D46346EBA06B2249BB97B2460 /* CNKit-umbrella.h */,
-				BE43EA6833119E4315DD98F0F849E69F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CNKit";
-			sourceTree = "<group>";
-		};
-		E80F1F6AB4CC38D1DBB8A936CB88C67F /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				6FBC0BA73B754BC32F7F34C5D86AAC90 /* UIButton+CNKit.h */,
-				AF89E8DDC4A1938FDFDB49BA7270B7E6 /* UIButton+CNKit.m */,
-				51EE5F6490116AB60AFD38509950F974 /* UIColor+CNKit.h */,
-				1E2F69E26588AC66346CE92037122569 /* UIColor+CNKit.m */,
-				F0386AEFF145F63FCC83B09FC64D9FA5 /* UIImage+CNKit.h */,
-				98AE787ABA2695D1C04591C9982FA42C /* UIImage+CNKit.m */,
-				471051114E936916B5885642C9B1D419 /* UIImageView+CNKit.h */,
-				226FD8AE2D3E693D793EB76916D3F8A8 /* UIImageView+CNKit.m */,
-				F0EF14C193905B5C122A44DFD01848E0 /* UILabel+CNKit.h */,
-				18C75208C16209E14A516E052CA65234 /* UILabel+CNKit.m */,
-				0EFAE772538C13821C2B6EC31A9CF09F /* UIView+CNKit.h */,
-				66F405D596E44C1001185E7AF0856A6A /* UIView+CNKit.m */,
+				B5CFCDCE40FD8BA1EC137A3944583EC9 /* UIButton+CNKit.h */,
+				8B1C497A38F65B091F7E88130806F02A /* UIButton+CNKit.m */,
+				FD93D2801DECF9E32A2D83DCF7C0B3EE /* UIColor+CNKit.h */,
+				66DD966571BB54625508BFA66EF12ECD /* UIColor+CNKit.m */,
+				96B8C5A5E2D9229CD4A76FA77DBA144C /* UIImage+CNKit.h */,
+				67B80A1E3D409D9E5B5126A43062BE28 /* UIImage+CNKit.m */,
+				78C7E98B6F60CD49BB936A73CE8A3E79 /* UIImageView+CNKit.h */,
+				F13BDA4F9F1D373B7D8FB41A181E62F1 /* UIImageView+CNKit.m */,
+				46D57366379595C45935E9ED78F250E7 /* UILabel+CNKit.h */,
+				BAB5E56D381C0C2666246D463977C4DB /* UILabel+CNKit.m */,
+				14911672E98CB38B51FFC409115E6C0F /* UIView+CNKit.h */,
+				ADBC0A5061D3A743F50DEECC4EB2FEFE /* UIView+CNKit.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		E961004DF96DDDC8BBEE7256B697F324 /* CNKit */ = {
+		CE996B35DE6D46C39C04ADAE51546506 /* FoundtionKit */ = {
 			isa = PBXGroup;
 			children = (
-				957A5C25E2E64F12FC2064CF7F817E36 /* CNKit.h */,
-				B9F3121DB858EBE4782548C6292638A5 /* FoundtionKit */,
-				D6A29C1A0C0793E85BB04D132C98A5C1 /* Support Files */,
-				E80F1F6AB4CC38D1DBB8A936CB88C67F /* UIKit */,
+				8F26AC5EA18BE3033F11C71FAB35198A /* NSArray+CNKit.h */,
+				B3817C5D21D3299819BA73E780643505 /* NSArray+CNKit.m */,
+				7A18F597079F771B954A52EBE357710F /* NSDate+CNKit.h */,
+				5595C8D5E6D87579FEEB10A461D02901 /* NSDate+CNKit.m */,
+				2A2B3DCCCE46EFF3813A1F9057AF2732 /* NSDictionary+CNKit.h */,
+				2EC31721684D5839EB05AB9CA39B217B /* NSDictionary+CNKit.m */,
+				0BE29DC1F5C570B69F0395FA9D2BFAB6 /* NSString+CNKit.h */,
+				8A314DB71061B10A597E853D4E3EBCEA /* NSString+CNKit.m */,
+				AA9CB515EF1AA18CBC5774614902CE51 /* NSString+Encrypto.h */,
+				4BB5C78284438888225BA6566BC1AF96 /* NSString+Encrypto.m */,
+				4E5896F4D510AD093218662A36298616 /* NSString+JSON.h */,
+				E630333516AADC9FDF7262CF039BD23B /* NSString+JSON.m */,
 			);
-			path = CNKit;
+			name = FoundtionKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C9EB2B4F83F4A14324257087E39ED4A3 /* Headers */ = {
+		06B432A26692AB1F274195084BE84047 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191A83627E414E984470267758A26FBA /* Pods-CNBasicDemo-umbrella.h in Headers */,
+				9F0FAE086576039826FB11B352EE7F59 /* Pods-CNBasicDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF844F4D5C6E247AF5C7B794667D6F67 /* Headers */ = {
+		CCD98C8849042ACD06F158AC260AE2BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162BCF0FA152DC45D6F5811A88243D35 /* CNKit-umbrella.h in Headers */,
-				11274F6121BF1A60206DC25CC42EAD3D /* CNKit.h in Headers */,
-				2CF361A60A5A77D3F1936F4F42C853ED /* NSArray+CNKit.h in Headers */,
-				BBB5F09AEF883806FFAEE7ADE421967C /* NSDate+CNKit.h in Headers */,
-				CB79B83DB175983B95F2BB6273CBD389 /* NSDictionary+CNKit.h in Headers */,
-				5E21ABD7241393BF284F5D189F241BA4 /* NSString+CNKit.h in Headers */,
-				237AA70370AA0CA9AA68B4090A1265CA /* NSString+Encrypto.h in Headers */,
-				6E69AE745585A9D8638EA9DCD4B60C5C /* NSString+JSON.h in Headers */,
-				0C426CF7B2D534638A186E18DE6A3A08 /* UIButton+CNKit.h in Headers */,
-				7F4DE629356CE424B32A5D5A306C3E87 /* UIColor+CNKit.h in Headers */,
-				78A2514160794F84B748F21EC543257C /* UIImage+CNKit.h in Headers */,
-				CDFECFB15E9E286C5C1B4D0CB33F8C16 /* UIImageView+CNKit.h in Headers */,
-				DA827486191B0FF5E699BF79130728E3 /* UILabel+CNKit.h in Headers */,
-				D3DF6F3AC65AEEFA2D2DC5438383F18D /* UIView+CNKit.h in Headers */,
+				73C12028E2616B7B31AFE712A44C7C4F /* BasicTool.h in Headers */,
+				E96CAED91B068BCFEB96109F7432A4F5 /* CNAddress.h in Headers */,
+				9C6AA0382F53AD01669CAA6409B634CA /* CNBasicTools-OC-umbrella.h in Headers */,
+				CCB54D2F1E9EC207480D0CCD968C30EE /* CNLocation.h in Headers */,
+				2CB167AF030576F0C1A8BA5BD2D2A7CF /* DataStoreTool.h in Headers */,
+				C396DC49F581E4AFD3A44DE9A6249244 /* MobileNumberTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1910E2BC885CA044171104746F9A18A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67F5C623BA880F9E3D50F61102F39BA /* CNKit-umbrella.h in Headers */,
+				09470ACBD9A0F7DAA21375CDF5C0BAA8 /* CNKit.h in Headers */,
+				96D1E73089F4386E86E17126CCD627AA /* NSArray+CNKit.h in Headers */,
+				73AC41ADA5C3039377435F639BA40D0C /* NSDate+CNKit.h in Headers */,
+				6E6229C41042FE54AE51520E93104ADA /* NSDictionary+CNKit.h in Headers */,
+				67D31D7DAEA534C9CCDA7C02EE0B6CF6 /* NSString+CNKit.h in Headers */,
+				04AD976EA2292153F8EBCDB68918430B /* NSString+Encrypto.h in Headers */,
+				7D7622BE31D875EA25DED5FC5F0E4392 /* NSString+JSON.h in Headers */,
+				DF6272C683ABF974CA6B7B8C9DD55965 /* UIButton+CNKit.h in Headers */,
+				0AB819BC376C71DAECA469EB69AD0AEC /* UIColor+CNKit.h in Headers */,
+				CFD09223851ABAB43C36D292DA3F5FC9 /* UIImage+CNKit.h in Headers */,
+				BDC628998AC6EB110A6B613C73D159E6 /* UIImageView+CNKit.h in Headers */,
+				948249059308D2DB3CE60B490F719F97 /* UILabel+CNKit.h in Headers */,
+				8F2E9A719AD327F0D40926812943C804 /* UIView+CNKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6FD4C82A76855AE32DDEC9855141AF9E /* CNKit */ = {
+		17D68FBCC324567C22C9A288E2CCEBC6 /* Pods-CNBasicDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93FCF9A426FA1416510C394D1B363655 /* Build configuration list for PBXNativeTarget "CNKit" */;
+			buildConfigurationList = E55CE52D250E14069B6E8C9920EB578B /* Build configuration list for PBXNativeTarget "Pods-CNBasicDemo" */;
 			buildPhases = (
-				3FF1F38CD9937B5F8847DDD02D2978E1 /* Sources */,
-				21A864F8F0487D3787CD81A224764EA3 /* Frameworks */,
-				FF844F4D5C6E247AF5C7B794667D6F67 /* Headers */,
+				2C520663456AAF1FF9823124914AB924 /* Sources */,
+				888B95D0168E50232DA9F7933D008A7B /* Frameworks */,
+				06B432A26692AB1F274195084BE84047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B198313E7382EEDE0DE0F84169CBB4 /* PBXTargetDependency */,
+				3E0FD45731527B681CC0D815C4FBB8A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CNBasicDemo";
+			productName = "Pods-CNBasicDemo";
+			productReference = 63BABCE48851FD0925CFE5EE1EEE7FF0 /* Pods_CNBasicDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F8EF1C4C642159F64F9763A27A5B05C /* CNKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D0E34FB86173DCFD6A99098CFC4BAC /* Build configuration list for PBXNativeTarget "CNKit" */;
+			buildPhases = (
+				E3B218B6FEED96D3FBF546E72069E4E4 /* Sources */,
+				8C70EB03A3EE07C220D68EAE7135FA03 /* Frameworks */,
+				D1910E2BC885CA044171104746F9A18A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -300,25 +422,25 @@
 			);
 			name = CNKit;
 			productName = CNKit;
-			productReference = F0E35F5AD2156C1039B780D0FE0AA0E4 /* CNKit.framework */;
+			productReference = 83059916E9CC5397A74EDE2C29474DE1 /* CNKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FBF1E6A9875BFA6DBB937A5F513963D2 /* Pods-CNBasicDemo */ = {
+		FBE53388D483F0A69090E96D67F0DA7B /* CNBasicTools-OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA64DB363726724F5F00A13A2B9E7ECC /* Build configuration list for PBXNativeTarget "Pods-CNBasicDemo" */;
+			buildConfigurationList = 5368022EC9655B0382A20C63B3044EE1 /* Build configuration list for PBXNativeTarget "CNBasicTools-OC" */;
 			buildPhases = (
-				239D5AC18DA71FAB37E238060C8B84C7 /* Sources */,
-				69D2B9E68B933856E1FCF5F62DC4AFBB /* Frameworks */,
-				C9EB2B4F83F4A14324257087E39ED4A3 /* Headers */,
+				35D874D3C9816D705C69137E484E87B4 /* Sources */,
+				02F1106662CF8727D3F3D7CDD0135931 /* Frameworks */,
+				CCD98C8849042ACD06F158AC260AE2BF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				075677E002F86533786D803ACAAFE4AB /* PBXTargetDependency */,
+				4ABA9A4499B4C248BFAA75B6CD881EA7 /* PBXTargetDependency */,
 			);
-			name = "Pods-CNBasicDemo";
-			productName = "Pods-CNBasicDemo";
-			productReference = CCC17A307B1A83DF923924138599771D /* Pods_CNBasicDemo.framework */;
+			name = "CNBasicTools-OC";
+			productName = "CNBasicTools-OC";
+			productReference = E4F78AEF5458256132101A4BD8CAADBF /* CNBasicTools_OC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,60 +460,148 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 906FAE557A7F84B787CB537BABD2B14F /* Products */;
+			productRefGroup = A065E24BCB77367D6380E4656B25F3DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FD4C82A76855AE32DDEC9855141AF9E /* CNKit */,
-				FBF1E6A9875BFA6DBB937A5F513963D2 /* Pods-CNBasicDemo */,
+				FBE53388D483F0A69090E96D67F0DA7B /* CNBasicTools-OC */,
+				9F8EF1C4C642159F64F9763A27A5B05C /* CNKit */,
+				17D68FBCC324567C22C9A288E2CCEBC6 /* Pods-CNBasicDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		239D5AC18DA71FAB37E238060C8B84C7 /* Sources */ = {
+		2C520663456AAF1FF9823124914AB924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036F585ADFA76E2049CF0D2C86E4B4A1 /* Pods-CNBasicDemo-dummy.m in Sources */,
+				5DEAA2EA53CD0120137D1D5B6210545D /* Pods-CNBasicDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FF1F38CD9937B5F8847DDD02D2978E1 /* Sources */ = {
+		35D874D3C9816D705C69137E484E87B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C5B406DCD74C4F2AB1E82604E46A8C /* CNKit-dummy.m in Sources */,
-				82459E1D60B1ED568951A5362DB3AA26 /* NSArray+CNKit.m in Sources */,
-				334BD1A02BA727CD1B43FB645933E7FB /* NSDate+CNKit.m in Sources */,
-				8AECB4035CB8CFFDE9B82A31305EDE7A /* NSDictionary+CNKit.m in Sources */,
-				4AA400838986D295A9FB0E440C3950DF /* NSString+CNKit.m in Sources */,
-				61B998FBA7AA8C66E8A4DDAB6CE8FA10 /* NSString+Encrypto.m in Sources */,
-				63E70DB7FC1977228C086349BE8EFFB8 /* NSString+JSON.m in Sources */,
-				FF703BFC7D8CEC60076AE0D802CBB49D /* UIButton+CNKit.m in Sources */,
-				E4FE9994B004BF3D00E670396046FA48 /* UIColor+CNKit.m in Sources */,
-				8E7035B81F72F9BB58CDF26F209D6C6B /* UIImage+CNKit.m in Sources */,
-				3923D1C71CB478FED5C3928D3F373A3C /* UIImageView+CNKit.m in Sources */,
-				476D7C5E0284EA943E8044CA3D752C4C /* UILabel+CNKit.m in Sources */,
-				58CDE5E26545B537E743063FB8839EF1 /* UIView+CNKit.m in Sources */,
+				0AC66C5DBFAF2395859E4247F804894C /* BasicTool.m in Sources */,
+				3F4C4443F4BFD9D69911BFF01E3F5CD3 /* CNAddress.m in Sources */,
+				12A3E1EE0DCB9E5E7DD342C0A185F7A1 /* CNBasicTools-OC-dummy.m in Sources */,
+				BEF219DDDA89021C196DC107FEFE298B /* CNLocation.m in Sources */,
+				FC8A3E52EF39D12E8488119D06C72CA4 /* DataStoreTool.m in Sources */,
+				0997BF77EE58C63A7CD25AD098C191E7 /* MobileNumberTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B218B6FEED96D3FBF546E72069E4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C579A16EDCA49818635061F8FD29CA18 /* CNKit-dummy.m in Sources */,
+				88A2A8D93A1B302CC37B8A611674C166 /* NSArray+CNKit.m in Sources */,
+				76EEA08B8D7F919DAEC8C67E97D03ECD /* NSDate+CNKit.m in Sources */,
+				FD2A46E9E2DA02AFE8C4587E461096C5 /* NSDictionary+CNKit.m in Sources */,
+				C275B00B1F2DE98DA366A8F04FAD06B4 /* NSString+CNKit.m in Sources */,
+				2ECD90D7CFC81133B295F9A066434003 /* NSString+Encrypto.m in Sources */,
+				7C8A0726A976161EBF8507D01A76284B /* NSString+JSON.m in Sources */,
+				E983DD16EB7E335350FA70DFEECE7255 /* UIButton+CNKit.m in Sources */,
+				B67F6EBAF8F4B59BE0A66446CFDD4B00 /* UIColor+CNKit.m in Sources */,
+				30E52FA3F656E43F18B74B0243DE6601 /* UIImage+CNKit.m in Sources */,
+				89C75B6DF82E0637CD2F82FAAAE5B1A9 /* UIImageView+CNKit.m in Sources */,
+				ED5076A487C6E3E9FEFE557C47A7BB6B /* UILabel+CNKit.m in Sources */,
+				4FD49871C3FCCFA49791C64DE464BE9D /* UIView+CNKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		075677E002F86533786D803ACAAFE4AB /* PBXTargetDependency */ = {
+		3E0FD45731527B681CC0D815C4FBB8A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CNKit;
-			target = 6FD4C82A76855AE32DDEC9855141AF9E /* CNKit */;
-			targetProxy = BA8E999B9E2FA72665778E2E15B4737C /* PBXContainerItemProxy */;
+			target = 9F8EF1C4C642159F64F9763A27A5B05C /* CNKit */;
+			targetProxy = BC90F237E7240C4D118B9424A72BCDD4 /* PBXContainerItemProxy */;
+		};
+		4ABA9A4499B4C248BFAA75B6CD881EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNKit;
+			target = 9F8EF1C4C642159F64F9763A27A5B05C /* CNKit */;
+			targetProxy = 6DD9FBF6C161744F3D1552287C2C6815 /* PBXContainerItemProxy */;
+		};
+		65B198313E7382EEDE0DE0F84169CBB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CNBasicTools-OC";
+			target = FBE53388D483F0A69090E96D67F0DA7B /* CNBasicTools-OC */;
+			targetProxy = 84A07BD94EF1BF9E384E30158D8BFF67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BCF42534CFCA6F68F324336356FF4BD /* Debug */ = {
+		2E940F9F184010A9B8DB1D0B81D147CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB01CB81F77A4F3C650ACCAC3C198EB /* CNKit.xcconfig */;
+			baseConfigurationReference = A9B326CD8ED00B8CA406E4DCB9A52D36 /* CNBasicTools-OC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNBasicTools-OC/CNBasicTools-OC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNBasicTools-OC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNBasicTools-OC/CNBasicTools-OC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CNBasicTools_OC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FAAD204CBF10B09AE90837A2044CC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79819359606C3249B95B97C7EAC0CC13 /* Pods-CNBasicDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CNBasicDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNBasicDemo/Pods-CNBasicDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CNBasicDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		493D67E073D16F40424D776D7FC6EDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B15270FAECA038A0D5A6C13C00670 /* CNKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -418,7 +628,103 @@
 			};
 			name = Debug;
 		};
-		2470DFE87E27AE1CB93EB0B540FF07F1 /* Release */ = {
+		7E593BB14C4F4827A7060CC2870DA561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B326CD8ED00B8CA406E4DCB9A52D36 /* CNBasicTools-OC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNBasicTools-OC/CNBasicTools-OC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNBasicTools-OC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNBasicTools-OC/CNBasicTools-OC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CNBasicTools_OC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F6E181EAB24280412028ECCB8015D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963D232CADCE7B237FAFC8C44ACB4157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B15270FAECA038A0D5A6C13C00670 /* CNKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNKit/CNKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNKit/CNKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CNKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D4DB52CE7F71934650A0CF33505CD3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58341BE1D3813A5F56DE7ADB1CBD94A9 /* Pods-CNBasicDemo.release.xcconfig */;
 			buildSettings = {
@@ -433,7 +739,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-CNBasicDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CNBasicDemo/Pods-CNBasicDemo.modulemap";
@@ -451,7 +757,7 @@
 			};
 			name = Release;
 		};
-		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+		A29D7B4850CDFED870E7CEBE7DAC0E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -486,112 +792,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		90AB1C17802BDDEE76DC30E34145E298 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB01CB81F77A4F3C650ACCAC3C198EB /* CNKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CNKit/CNKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CNKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CNKit/CNKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CNKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D77CB67A65FA59823C03C657A6825E8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79819359606C3249B95B97C7EAC0CC13 /* Pods-CNBasicDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CNBasicDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CNBasicDemo/Pods-CNBasicDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CNBasicDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F594C655D48020EC34B00AA63E001773 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -599,26 +805,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FD87D359382A37B07149A12641B965 /* Debug */,
-				F594C655D48020EC34B00AA63E001773 /* Release */,
+				A29D7B4850CDFED870E7CEBE7DAC0E63 /* Debug */,
+				7F6E181EAB24280412028ECCB8015D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93FCF9A426FA1416510C394D1B363655 /* Build configuration list for PBXNativeTarget "CNKit" */ = {
+		5368022EC9655B0382A20C63B3044EE1 /* Build configuration list for PBXNativeTarget "CNBasicTools-OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BCF42534CFCA6F68F324336356FF4BD /* Debug */,
-				90AB1C17802BDDEE76DC30E34145E298 /* Release */,
+				7E593BB14C4F4827A7060CC2870DA561 /* Debug */,
+				2E940F9F184010A9B8DB1D0B81D147CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA64DB363726724F5F00A13A2B9E7ECC /* Build configuration list for PBXNativeTarget "Pods-CNBasicDemo" */ = {
+		B3D0E34FB86173DCFD6A99098CFC4BAC /* Build configuration list for PBXNativeTarget "CNKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D77CB67A65FA59823C03C657A6825E8B /* Debug */,
-				2470DFE87E27AE1CB93EB0B540FF07F1 /* Release */,
+				493D67E073D16F40424D776D7FC6EDFE /* Debug */,
+				963D232CADCE7B237FAFC8C44ACB4157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55CE52D250E14069B6E8C9920EB578B /* Build configuration list for PBXNativeTarget "Pods-CNBasicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAAD204CBF10B09AE90837A2044CC49 /* Debug */,
+				9D4DB52CE7F71934650A0CF33505CD3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

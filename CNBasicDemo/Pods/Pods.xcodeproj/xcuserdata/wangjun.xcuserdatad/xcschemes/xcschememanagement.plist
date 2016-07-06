@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CNBasicTools-OC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CNKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6FD4C82A76855AE32DDEC9855141AF9E</key>
+		<key>17D68FBCC324567C22C9A288E2CCEBC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FBF1E6A9875BFA6DBB937A5F513963D2</key>
+		<key>9F8EF1C4C642159F64F9763A27A5B05C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBE53388D483F0A69090E96D67F0DA7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

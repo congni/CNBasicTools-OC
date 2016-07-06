@@ -14,11 +14,6 @@
 		DA86DD5C1D2B7EA8005C5BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA86DD5A1D2B7EA8005C5BA3 /* Main.storyboard */; };
 		DA86DD5E1D2B7EA8005C5BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA86DD5D1D2B7EA8005C5BA3 /* Assets.xcassets */; };
 		DA86DD611D2B7EA8005C5BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA86DD5F1D2B7EA8005C5BA3 /* LaunchScreen.storyboard */; };
-		DA86DD6F1D2B7EB6005C5BA3 /* BasicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86DD6A1D2B7EB6005C5BA3 /* BasicTool.m */; };
-		DA86DD701D2B7EB6005C5BA3 /* DataStoreTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86DD6C1D2B7EB6005C5BA3 /* DataStoreTool.m */; };
-		DA86DD711D2B7EB6005C5BA3 /* MobileNumberTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86DD6E1D2B7EB6005C5BA3 /* MobileNumberTool.m */; };
-		DA86DD761D2B83EC005C5BA3 /* CNLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86DD751D2B83EC005C5BA3 /* CNLocation.m */; };
-		DA86DD791D2B84BA005C5BA3 /* CNAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86DD781D2B84BA005C5BA3 /* CNAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,16 +29,6 @@
 		DA86DD5D1D2B7EA8005C5BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA86DD601D2B7EA8005C5BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA86DD621D2B7EA8005C5BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA86DD691D2B7EB6005C5BA3 /* BasicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTool.h; sourceTree = "<group>"; };
-		DA86DD6A1D2B7EB6005C5BA3 /* BasicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTool.m; sourceTree = "<group>"; };
-		DA86DD6B1D2B7EB6005C5BA3 /* DataStoreTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreTool.h; sourceTree = "<group>"; };
-		DA86DD6C1D2B7EB6005C5BA3 /* DataStoreTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStoreTool.m; sourceTree = "<group>"; };
-		DA86DD6D1D2B7EB6005C5BA3 /* MobileNumberTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileNumberTool.h; sourceTree = "<group>"; };
-		DA86DD6E1D2B7EB6005C5BA3 /* MobileNumberTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileNumberTool.m; sourceTree = "<group>"; };
-		DA86DD741D2B83EC005C5BA3 /* CNLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNLocation.h; sourceTree = "<group>"; };
-		DA86DD751D2B83EC005C5BA3 /* CNLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNLocation.m; sourceTree = "<group>"; };
-		DA86DD771D2B84BA005C5BA3 /* CNAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNAddress.h; sourceTree = "<group>"; };
-		DA86DD781D2B84BA005C5BA3 /* CNAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNAddress.m; sourceTree = "<group>"; };
 		E0F2DC0C241F75492402A003 /* Pods-CNBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNBasicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNBasicDemo/Pods-CNBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +64,6 @@
 		DA86DD451D2B7EA8005C5BA3 = {
 			isa = PBXGroup;
 			children = (
-				DA86DD681D2B7EB6005C5BA3 /* CNBasicTools-OC */,
 				DA86DD501D2B7EA8005C5BA3 /* CNBasicDemo */,
 				DA86DD4F1D2B7EA8005C5BA3 /* Products */,
 				362EDAC48DDF51C2940535C9 /* Pods */,
@@ -117,24 +101,6 @@
 				DA86DD521D2B7EA8005C5BA3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DA86DD681D2B7EB6005C5BA3 /* CNBasicTools-OC */ = {
-			isa = PBXGroup;
-			children = (
-				DA86DD691D2B7EB6005C5BA3 /* BasicTool.h */,
-				DA86DD6A1D2B7EB6005C5BA3 /* BasicTool.m */,
-				DA86DD6B1D2B7EB6005C5BA3 /* DataStoreTool.h */,
-				DA86DD6C1D2B7EB6005C5BA3 /* DataStoreTool.m */,
-				DA86DD6D1D2B7EB6005C5BA3 /* MobileNumberTool.h */,
-				DA86DD6E1D2B7EB6005C5BA3 /* MobileNumberTool.m */,
-				DA86DD741D2B83EC005C5BA3 /* CNLocation.h */,
-				DA86DD751D2B83EC005C5BA3 /* CNLocation.m */,
-				DA86DD771D2B84BA005C5BA3 /* CNAddress.h */,
-				DA86DD781D2B84BA005C5BA3 /* CNAddress.m */,
-			);
-			name = "CNBasicTools-OC";
-			path = "../CNBasicTools-OC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,14 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA86DD711D2B7EB6005C5BA3 /* MobileNumberTool.m in Sources */,
 				DA86DD591D2B7EA8005C5BA3 /* ViewController.m in Sources */,
 				DA86DD561D2B7EA8005C5BA3 /* AppDelegate.m in Sources */,
-				DA86DD701D2B7EB6005C5BA3 /* DataStoreTool.m in Sources */,
-				DA86DD6F1D2B7EB6005C5BA3 /* BasicTool.m in Sources */,
-				DA86DD791D2B84BA005C5BA3 /* CNAddress.m in Sources */,
 				DA86DD531D2B7EA8005C5BA3 /* main.m in Sources */,
-				DA86DD761D2B83EC005C5BA3 /* CNLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +343,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ixdtech.CNBasicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -396,6 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ixdtech.CNBasicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

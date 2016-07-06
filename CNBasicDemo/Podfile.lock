@@ -1,4 +1,6 @@
 PODS:
+  - CNBasicTools-OC (1.0):
+    - CNKit
   - CNKit (1.1.8):
     - CNKit/FoundtionKit (= 1.1.8)
     - CNKit/UIKit (= 1.1.8)
@@ -6,11 +8,13 @@ PODS:
   - CNKit/UIKit (1.1.8)
 
 DEPENDENCIES:
+  - CNBasicTools-OC (~> 1.0)
   - CNKit (~> 1.1.8)
 
 SPEC CHECKSUMS:
+  CNBasicTools-OC: 7d34174f8a2acce1345feeb79c5b4bc6946ceb23
   CNKit: 8689e654964b744fee4c3bea1e7a884acb55b74d
 
-PODFILE CHECKSUM: 09141acddd1922faae5eda79414f20b0d3b1304b
+PODFILE CHECKSUM: cbec129bf95d1f905c1bb21c1f80dbfc40c52567
 
 COCOAPODS: 1.0.0

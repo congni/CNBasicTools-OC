@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "CNLocation.h"
+#import <CNKit/CNKit.h>
+#import "CNBasicTools-OC/CNLocation.h"
+//#import "CNFirUpdateVersionManager.h"
 
 
 @interface ViewController ()<CNLocationDelegate>
@@ -20,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+//    [[CNFirUpdateVersionManager instance] firAutoUpdate:@"5768e334f2fc426742000027" token:@"4d9f05234941cdd1c5a459910dde5b5e"];
 }
 
 - (void)locationCompleteHandle:(CNAddress *)addressInfomation error:(NSError *)locationError {

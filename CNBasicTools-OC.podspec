@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CNBasicTools-OC'
-  s.version      = '1.0.2'
+  s.version      = '1.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/congni/CNBasicTools-OC.git'
   s.authors      = { "葱泥" => "983818495@qq.com" }
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.source       =  { :git => "https://github.com/congni/CNBasicTools-OC.git", :tag => s.version.to_s }
   s.requires_arc = true
-  s.source_files = 'CNBasicTools-OC/*.{h,m}'
-  s.public_header_files = 'CNBasicTools-OC/*.{h}'
+  s.source_files = 'CNBasicTools-OC/*'
+
+  s.dependency 'CNKit'
 end
